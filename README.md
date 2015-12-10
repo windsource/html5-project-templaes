@@ -6,4 +6,4 @@ Name | Description
 ---- | -----------
 [html5-basic](https://windsource.github.io/html5-project-templates/html5-basic/index.html) | A simple html file with the basic HTML5 elements like head and body.
 [angularjs](https://windsource.github.io/html5-project-templates/angularjs/Default.html) | A simple AngularJS application
-[bootstrap-basic](https://windsource.github.io/bootstrap-basic/html5-project-templates/index.html) | A bootstrap page with a jumbotron and a default navbar.
+[bootstrap-basic](https://windsource.github.io/html5-project-templates/bootstrap-basic/index.html) | A bootstrap page with a jumbotron and a default navbar.
