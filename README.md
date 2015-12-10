@@ -1,6 +1,6 @@
 # HTML5 project templates
 
-Some examples to jumstart HTML5 projects.
+Some examples to jumpstart HTML5 projects.
 
 Name | Description
 ---- | -----------
