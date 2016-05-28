@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Title of the document</title>
+  <link rel="stylesheet" type="text/css" href="dist/semantic.css">
+  
+  <script src="dist/semantic.js"></script>
+
+  <style>
+    .bucketname { font-size: 120%; font-weight: bold;}
+  </style>  
+</head>
+
+<body>
+  <div class="ui masthead segment">
+    <div class="ui container">
+      <h1 class="ui header">S3 Analyzer</h1>
+    </div>
+  </div>
+  <div class="ui container">
+    
+
+    <table class="ui fixed table">
+      <thead>
+        <tr>
+          <th colspan="2">
+            <h2 class="ui header">List of available AWS S3 buckets</h2>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <span class="bucketname">my-first-bucket</span>
+            <br>
+            eu-central-1
+          </td>
+          <td><button class="ui button">Details</button></td>
+        </tr>     
+        <tr>
+          <td>
+            <span class="bucketname">my-first-bucket</span>
+            <br>            
+            eu-central-1
+          </td>
+          <td>
+            <button class="ui loading button">Details</button>
+            <div class="ui label">
+              Size 1.2 GB
+            </div>
+            <div class="ui label">
+              Objects 1,200,300
+            </div>
+          </td>
+        </tr>     
+        <tr>
+          <td>
+            <span class="bucketname">my-first-bucket</span>
+            <br>            
+            eu-central-1
+          </td>
+          <td>
+            <div class="ui label">
+              Size 1.2 GB
+            </div>
+            <div class="ui label">
+              Objects 1,200,300
+            </div>
+          </td>
+        </tr>     
+      </tbody>
+      <tfoot>
+        <tr>
+          <th><button class="ui button">Reload list</button></th>
+          <th><button class="ui button">All details</button></th>
+        </tr>
+      </thead>
+    </table>    
+    <div class="ui loading segment">
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+  </div>
+</body>
+
+</html> 
